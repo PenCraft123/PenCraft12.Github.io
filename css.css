@@ -84,7 +84,7 @@ a{
   height: 150px;
   margin: 30px auto;
   border-radius: 50%;
-  position:absolute;
+  position:relative;
   right:50%;bottom:50%;
   background-color: hsl(222, 100%, 52%);
   border: 0;
