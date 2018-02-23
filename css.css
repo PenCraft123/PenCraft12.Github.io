@@ -61,7 +61,7 @@ a{
 .sqare{
   width:150px;
   height:150px;
-  margin: 10px auto;
+  margin: 20px auto;
   background-color: #8BC34A;
   position:absolute;
   right: 50%;
@@ -166,7 +166,7 @@ a{
 .cc2{
   width: 250px;
   height: 180px;
-  margin-bottom: 10px;
+  margin:20px auto;
   position: relative;
   background:none;
   border:none;
@@ -212,6 +212,7 @@ a{
 .download{
   width:220px;
   height:70px;
+  margin:20px auto;
   border-style: solid;
   border-color:hsl(41, 100%, 50%);
   border-radius: 100px;
