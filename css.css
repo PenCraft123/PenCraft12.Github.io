@@ -94,6 +94,11 @@ a{
   text-shadow: 4px 0px 0px rgba(#040404, 1);
   text-decoration: none;
   color: #ad00ff;
+   position: relative;
+        display: block;
+        min-width: 960px;
+        min-height: 700px;
+
 }
 .g1{
   color:#b21fd1;
