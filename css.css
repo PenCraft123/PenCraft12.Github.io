@@ -67,7 +67,7 @@ a{
   text-align: center;
   color: white;
   font-size: 70px;
-  font-family: Unispace;
+  font-family:Luckiest Guy;
   text-decoration: none;
   text-shadow: 7px 0px 0px #53ea93;
   border:0px;
@@ -85,20 +85,19 @@ a{
   border-radius: 100px;
   position:relative;
   right:-13.23em;top:3em;
-
-
+  letter-spacing: 3px;
   background-color: hsl(222, 100%, 52%);
   border: 0;
   background:repeating-radial-gradient(circle, #B9ECFE, #B9ECFE 10px, #82DDFF 10px, #82DDFF 20px);
-  font-family: Unispace;
+  font-family:Luckiest Guy;
   font-size: 60px;
-  text-shadow: 4px 0px 0px rgba(#040404, 1);
+  text-shadow: 4px 4px 1px rgba(#040404, 1);
   text-decoration: none;
   color: #ad00ff;
 }
 .g1{
   color:#b21fd1;
-  text-shadow: 4px 0px 1px hsl(276, 100%, 77%);
+  text-shadow: 4px 2px 1px hsl(276, 100%, 77%);
   background: none;
 
 }
@@ -164,17 +163,21 @@ a{
    -webkit-animation-iteration-count: 1;
    animation-iteration-count: 1;
 }
+.cvet{
+  color:#ffc700;
 
+}
 .cc2{
   width: 250px;
   height: 180px;
   margin-bottom: 10px;
   background:none;
   border:none;
-  font-family: Unispace;
+  font-family:Luckiest Guy;
   font-size: 100px;
-  text-shadow: 8px 0px 3px #b19328;
+  text-shadow: 6px 0px 0px #b19328;
   text-decoration: none;
+  letter-spacing: 3px;
   color: #ffc700;
   text-align: center;
 }
@@ -241,14 +244,6 @@ a{
   color:hsl(55, 100%, 69%);
   text-shadow: 4px 0px 1px hsla(36, 100%, 50%, 0.61);
 }
-
-
-
-
-
-
-
-
 
 
 
