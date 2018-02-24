@@ -45,13 +45,12 @@ body {
 
     -webkit-transform: translateX(-18px);
     transform: translateX(-18px);
-    -webkit-transition: all 0.3s ease;;
-  -moz-transition: all 0.3s ease;;
-  -o-transition: all 0.3s ease;;
-  transition: all 0.3s ease;
+    -webkit-transition:all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
   transform: skewY(-3deg);
   transform: skewX(-3deg);
-
 }
 a{
   text-decoration: none;
@@ -83,9 +82,11 @@ a{
   width: 150px;
   height: 150px;
   margin: 30px auto;
-  border-radius: 50%;
-  position:absolute;
-  right:50%;bottom:50%;
+  border-radius: 100px;
+  position:relative;
+  right:-13.23em;top:3em;
+
+
   background-color: hsl(222, 100%, 52%);
   border: 0;
   background:repeating-radial-gradient(circle, #B9ECFE, #B9ECFE 10px, #82DDFF 10px, #82DDFF 20px);
@@ -99,7 +100,7 @@ a{
   color:#b21fd1;
   text-shadow: 4px 0px 1px hsl(276, 100%, 77%);
   background: none;
-  text-align: center;
+
 }
 
 
@@ -168,7 +169,6 @@ a{
   width: 250px;
   height: 180px;
   margin-bottom: 10px;
-  position: relative;
   background:none;
   border:none;
   font-family: Unispace;
@@ -183,12 +183,13 @@ a{
   height: 180px;
   margin: 30px auto;
   position:relative;
-  top:500px;
+  top:24.3em;right: 5em;
   background-color: hsl(222, 100%, 52%);
   background:repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
   border-style:solid;
   border-color:hsl(173, 97%, 45%);
   border-width: medium;
+  text-decoration: none;
   }
 .c2:hover{
   animation-name: ffgr;
@@ -213,6 +214,8 @@ a{
 .download{
   width:220px;
   height:70px;
+  position:relative;
+  left:47em;
   border-style: solid;
   border-color:hsl(41, 100%, 50%);
   border-radius: 100px;
