@@ -20,6 +20,7 @@ body {
 }
 .ss:hover{
   background-color: gray;
+
 }
 .sqare:hover{
     box-shadow:
@@ -71,7 +72,8 @@ a{
   text-decoration: none;
   text-shadow: 7px 0px 0px #53ea93;
   border:0px;
-
+  transition: all linear .25s;
+    -webkit-transition: all linear .25s;
 }
 .lol{
   text-decoration: none;
@@ -99,7 +101,8 @@ a{
   color:#b21fd1;
   text-shadow: 4px 2px 1px hsl(276, 100%, 77%);
   background: none;
-
+  transition: all linear .25s;
+    -webkit-transition: all linear .25s;
 }
 
 
@@ -186,22 +189,29 @@ a{
   height: 180px;
   margin: 30px auto;
   position:relative;
-  top:24.3em;right: 5em;
+  top:24.3em ;right: 5em;
   background-color: hsl(222, 100%, 52%);
   background:repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
   border-style:solid;
   border-color:hsl(173, 97%, 45%);
   border-width: medium;
   text-decoration: none;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition:all 0.2s ease-out;
+  transition: all linear .25s;
+    -webkit-transition: all linear .25s;
   }
 .c2:hover{
   animation-name: ffgr;
   animation-duration: 3s;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
   box-shadow: inset 0 0 0 23px hsla(54, 86%, 44%, 0.5);
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition:all 0.3s ease;
+  transition: all linear .25s;
+    -webkit-transition: all linear .25s;
+  -webkit-animation-play-state:running;
 }
 @keyframes ffgr {
 
@@ -211,14 +221,15 @@ a{
 
 100%{
    transform:rotate(360deg);
-}
+ }
 }
 
 .download{
   width:220px;
   height:70px;
   position:relative;
-  left:47em;
+  position:absolute;
+  left:auto; bottom: auto;right:45.8%;
   border-style: solid;
   border-color:hsl(41, 100%, 50%);
   border-radius: 100px;
@@ -226,7 +237,9 @@ a{
   border-left: 30px;
   border-width: 4px;
   float: right 15px ;
-}
+  transition: all linear .25s;
+    -webkit-transition: all linear .25s;
+ }
 .download:hover{
   border-color: hsl(55, 100%, 69%);
   box-shadow: inset 0px 0px 5px 3px hsla(36, 100%, 50%, 0.61);
@@ -239,6 +252,9 @@ a{
   font-size: 50px;
   border:none;
   color:hsl(41, 100%, 50%);
+  transition: all linear .25s;
+    -webkit-transition: all linear .25s;
+
 }
 .downloadb:hover{
   color:hsl(55, 100%, 69%);
