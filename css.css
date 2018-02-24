@@ -1,13 +1,27 @@
-body {
-  background-color: rgb(35, 35, 40);
+
+body{
+  background: url("https://avatanplus.com/files/resources/original/582f7056a6879158794ed29a.jpg");
+height:500px;
 }
 
+.hea{
+width: 70em;
+height:67.4em;
+background-color: rgb(35, 35, 40);
+position: absolute;
+left: 20%;
+position: static;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+}
 .j1{
   color: #f2f2f2;
   text-align: center;
   background: #ff4a4a;
   font-size: 40px;
-  line-height: 60px;
+  line-height: 65px;
   letter-spacing: 2px;
   font-family: impact;
   text-shadow: 4px 1px 1px #b1b1b1;
@@ -61,7 +75,6 @@ a{
 .sqare{
   width:150px;
   height:150px;
-  margin: 10px auto;
   background-color: #8BC34A;
   position:absolute;
   right: 50%;
@@ -83,10 +96,10 @@ a{
 .cc1{
   width: 150px;
   height: 150px;
-  margin: 30px auto;
   border-radius: 100px;
   position:relative;
-  right:-13.23em;top:3em;
+  right:15.8em;top:4.5em;
+  position:absolute;
   letter-spacing: 3px;
   background-color: hsl(222, 100%, 52%);
   border: 0;
@@ -96,6 +109,7 @@ a{
   text-shadow: 4px 4px 1px rgba(#040404, 1);
   text-decoration: none;
   color: #ad00ff;
+  box-shadow:inset 0 0 0 4px hsla(228, 100%, 50%, 0.7);
 }
 .g1{
   color:#b21fd1;
@@ -173,7 +187,6 @@ a{
 .cc2{
   width: 250px;
   height: 180px;
-  margin-bottom: 10px;
   background:none;
   border:none;
   font-family:Luckiest Guy;
@@ -187,9 +200,9 @@ a{
 .c2{
   width: 250px;
   height: 180px;
-  margin: 30px auto;
   position:relative;
-  top:24.3em ;right: 5em;
+  position: absolute;
+  right:57em;bottom:10em;
   background-color: hsl(222, 100%, 52%);
   background:repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
   border-style:solid;
@@ -229,7 +242,7 @@ a{
   height:70px;
   position:relative;
   position:absolute;
-  left:auto; bottom: auto;right:45.8%;
+  left:auto; bottom:25em;right:48%;
   border-style: solid;
   border-color:hsl(41, 100%, 50%);
   border-radius: 100px;
@@ -260,7 +273,15 @@ a{
   color:hsl(55, 100%, 69%);
   text-shadow: 4px 0px 1px hsla(36, 100%, 50%, 0.61);
 }
+.contr{
+  width: 1000px;
 
+  background-color: hsla(270, 100%, 50%, 1);
+  position:absolute;
+  position:relative;
+  right: -28em;bottom: 10em;
+
+}
 
 
 }
