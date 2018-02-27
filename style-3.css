@@ -35,11 +35,11 @@ body{
   opacity: 4;
   width: 17em;
   height: 8.5em;
-  background-color:#8BC34A;
+  background-color:rgba(104, 58, 218, 1);
   transition: all linear .25s;
     -webkit-transition: all linear .25s;
    border: none;
-  text-shadow: 3px 0px 0px #53ea93;
+  text-shadow: 3px 0px 0px rgba(223, 98, 203, 0.88);
   color: white;
   font-family:Russo One;
   text-decoration: none;
@@ -52,13 +52,13 @@ body{
 }
 .button-glav:hover{
   box-shadow:
-        1px 1px #53ea93,
-        2px 2px #53ea93,
-        3px 3px #53ea93,
-        4px 4px #53ea93,
-        5px 5px #53ea93,
-        6px 6px #53ea93,
-        7px 7px #53ea93;
+        1px 1px rgba(223, 98, 203, 0.88),
+        2px 2px rgba(223, 98, 203, 0.88),
+        3px 3px rgba(223, 98, 203, 0.88),
+        4px 4px rgba(223, 98, 203, 0.88),
+        5px 5px rgba(223, 98, 203, 0.88),
+        6px 6px rgba(223, 98, 203, 0.88),
+        7px 7px rgba(223, 98, 203, 0.88);
 
       -webkit-transition:all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
@@ -69,41 +69,40 @@ body{
     -webkit-transform: translateX(-7px);
      transform: translateX(-7px);
 }
-.button-1{
-  width: 12em;
+.button-3:hover{
+  box-shadow:
+        1px 1px #53ea93,
+        2px 2px #53ea93,
+        3px 3px #53ea93,
+        4px 4px #53ea93,
+        5px 5px #53ea93;
+
+      -webkit-transform: translateX(-18px);
+      transform: translateX(-18px);
+      -webkit-transition:all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    transform: skewY(-3deg);
+    transform: skewX(-3deg);
+    -webkit-transform: translateX(-7px);
+     transform: translateX(-7px);
+}
+
+.button-3{
+  width: 13em;
   height: 7em;
   border-radius: 100px;
-  background-color:rgba(104, 58, 218, 1);
   transition: all linear .25s;
     -webkit-transition: all linear .25s;
    border: none;
-  text-shadow: 3px 0px 1px rgba(223, 98, 203, 0.88);
+   background-color:#8BC34A;
+ text-shadow: 3px 0px 1px #53ea93;
   color: white;
   font-family:Russo One;
   text-decoration: none;
   letter-spacing: 1.5px;
-  margin-right: 3px;
-
-}
-
-.button-1:hover {
-box-shadow:
-      1px 1px rgba(223, 98, 203, 0.88),
-      2px 2px rgba(223, 98, 203, 0.88),
-      3px 3px rgba(223, 98, 203, 0.88),
-      4px 4px rgba(223, 98, 203, 0.88),
-      5px 5px rgba(223, 98, 203, 0.88),
-      6px 6px rgba(223, 98, 203, 0.88),
-      7px 7px rgba(223, 98, 203, 0.88);
-
-    -webkit-transition:all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  transform: skewY(-3deg);
-  transform: skewX(-3deg);
-  -webkit-transform: translateX(-7px);
-   transform: translateX(-7px);
+  text-decoration: none;
 }
 
 
@@ -125,6 +124,7 @@ font-size: 38px;
   text-decoration: none;
   letter-spacing: 1.5px;
   margin-right: 3px;
+  text-decoration: none;
 }
 .button-2:hover{
   box-shadow:
@@ -157,7 +157,7 @@ font-size: 38px;
 .b5{
   font-size: 27px;
 }
-.button-3{
+.button-1{
   width: 13em;
   height: 7em;
   border-radius: 100px;
@@ -170,8 +170,9 @@ font-size: 38px;
   font-family:Russo One;
   text-decoration: none;
   letter-spacing: 1.5px;
+  text-decoration: none;
 }
-.button-3:hover{
+.button-1:hover{
   box-shadow:
   1px 1px rgba(223, 98, 203, 0.88),
   2px 2px rgba(223, 98, 203, 0.88),

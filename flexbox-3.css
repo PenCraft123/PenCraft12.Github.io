@@ -1,0 +1,15 @@
+body{
+  display: flex;
+
+}
+.header-flexbox{
+  margin-left: 7%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  position:fixed;
+  height: auto;
+  width: 80%;
+}
